@@ -1,0 +1,36 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "initial-web-part-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/initialWebPart/InitialWebPartWebPart.js",
+          "manifest": "./src/webparts/initialWebPart/InitialWebPartWebPart.manifest.json"
+        }
+      ]
+    },
+    "second-wp-react-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/secondWpReact/SecondWpReactWebPart.js",
+          "manifest": "./src/webparts/secondWpReact/SecondWpReactWebPart.manifest.json"
+        }
+      ]
+    },
+    "third-wp-knockout-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/thirdWpKnockout/ThirdWpKnockoutWebPart.js",
+          "manifest": "./src/webparts/thirdWpKnockout/ThirdWpKnockoutWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "InitialWebPartWebPartStrings": "lib/webparts/initialWebPart/loc/{locale}.js",
+    "SecondWpReactWebPartStrings": "lib/webparts/secondWpReact/loc/{locale}.js",
+    "ThirdWpKnockoutWebPartStrings": "lib/webparts/thirdWpKnockout/loc/{locale}.js"
+  }
+}

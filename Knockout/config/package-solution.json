@@ -1,0 +1,13 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "knockout-framework-client-side-solution",
+    "id": "0fa22a69-a8d3-4fd2-ab71-97ee28ee28af",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/knockout-framework.sppkg"
+  }
+}

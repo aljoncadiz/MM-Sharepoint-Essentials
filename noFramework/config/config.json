@@ -1,0 +1,18 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "no-framework-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/noFramework/NoFrameworkWebPart.js",
+          "manifest": "./src/webparts/noFramework/NoFrameworkWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "NoFrameworkWebPartStrings": "lib/webparts/noFramework/loc/{locale}.js"
+  }
+}

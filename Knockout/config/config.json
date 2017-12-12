@@ -1,0 +1,18 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "knockout-framework-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/knockoutFramework/KnockoutFrameworkWebPart.js",
+          "manifest": "./src/webparts/knockoutFramework/KnockoutFrameworkWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "KnockoutFrameworkWebPartStrings": "lib/webparts/knockoutFramework/loc/{locale}.js"
+  }
+}

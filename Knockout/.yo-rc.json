@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.4.0",
+    "libraryName": "knockout-framework",
+    "libraryId": "0fa22a69-a8d3-4fd2-ab71-97ee28ee28af",
+    "environment": "spo"
+  }
+}

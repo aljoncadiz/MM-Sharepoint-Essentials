@@ -1,0 +1,13 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "aljonc-client-side-solution",
+    "id": "3e2c171d-dddf-49ac-9d63-3e9bbcd56b48",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/aljonc.sppkg"
+  }
+}
