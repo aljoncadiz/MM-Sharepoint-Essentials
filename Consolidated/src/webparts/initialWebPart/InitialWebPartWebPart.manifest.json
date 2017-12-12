@@ -20,7 +20,11 @@
     "description": { "default": "Magenic Masters Sharepoint Essentials" },
     "officeFabricIconFontName": "Page",
     "properties": {
-      "description": "initialWebPart"
+      "description": "Hello World!",
+      "test" : "Multi-line Text Field",
+      "test1" : true,
+      "test2" : "2",
+      "test3" : true
     }
   }]
 }
